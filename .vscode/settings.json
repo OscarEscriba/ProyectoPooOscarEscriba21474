@@ -1,0 +1,12 @@
+{
+    "java.project.referencedLibraries": [
+        "lib/**/*.jar",
+        "c:\\Users\\Oscar Escriba\\Desktop\\6to Semestre compu\\POO\\mysql-connector-j-8.2.0\\mysql-connector-j-8.2.0.jar",
+        "c:\\Users\\Oscar Escriba\\Desktop\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.2.jre8.jar",
+        "c:\\Users\\Oscar Escriba\\Desktop\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.2.jre8-javadoc.jar",
+        "c:\\Users\\Oscar Escriba\\Desktop\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.2.jre8-sources.jar",
+        "c:\\Users\\Oscar Escriba\\Desktop\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.2.jre11.jar",
+        "c:\\Users\\Oscar Escriba\\Desktop\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.2.jre11-javadoc.jar",
+        "c:\\Users\\Oscar Escriba\\Desktop\\sqljdbc_12.4\\enu\\jars\\mssql-jdbc-12.4.2.jre11-sources.jar"
+    ]
+}
