@@ -39,4 +39,11 @@ private static Persona realizarLogin(){
     }
 }
 //metodos para mandar a llamar los metodos en todas las siguientes clases... 
+private static void mostrarOperacionesDoctor(Medico doctor){ //mostrar doctores por especialidad... 
+    Medico.mostrarDoctores(); 
+    System.out.println("Ingrese la especialidad para ver los doctores disponibles de esa Area..."); 
+    String especialidad = teclado.nextLine(); 
+    Medico.mostrarDoctoresPorEspecialidad(especialidad); 
+    Farmacia.mostrarFarmacias(); 
+} 
 } 
