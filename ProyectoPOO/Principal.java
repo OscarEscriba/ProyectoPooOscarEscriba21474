@@ -46,4 +46,23 @@ private static void mostrarOperacionesDoctor(Medico doctor){ //mostrar doctores 
     Medico.mostrarDoctoresPorEspecialidad(especialidad); 
     Farmacia.mostrarFarmacias(); 
 } 
+private static void mostrarOperacionesPaciente(Paciente paciente){ 
+    System.out.println("Ingrese el ID del paciente que quieres observar..."); 
+    int id = teclado.nextInt(); 
+    teclado.nextLine(); 
+    Paciente.mostrarPacientes(id); 
+    //actualizar los sintomas... 
+    System.out.println("Desea modificar sus sintomas? (S/N)"); 
+    String respuesta =teclado.nextLine().toUpperCase(); 
+    if (respuesta.equals("S")) { 
+        System.out.println("Ingrese los nuevos sintomas"); 
+        String nuevosSintomas = teclado.nextLine(); 
+        //paciente.setSintomas(nuevosSintomas); 
+        Paciente.actualizarSintomasEnBD(nuevosSintomas,id); 
+        System.out.println("Sintomas actualizados correctamente...");
+    } 
+    else { 
+        System.out.println("Okay, no se actualizaran los sintomas...");
+    }
+}
 } 
